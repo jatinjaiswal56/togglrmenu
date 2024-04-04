@@ -1,0 +1,126 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Keep the original styling and add any additional styles below */
+  
+  h2 {
+    color: #333;
+    text-align: center; /* This will center the text inside the heading */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Adjust based on your preference */
+    max-width: 500px; /* Sets a max-width for the todo list */
+  }
+  
+  /* Aligns the add todo input and button */
+  .add-todo-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px; /* Ensures the form doesn’t stretch too wide */
+    margin-bottom: 20px; /* Adds some space below the form */
+  }
+  
+  input[type="text"] {
+    flex-grow: 1; /* Allows the input to fill the space */
+    margin-right: 10px; /* Adds some space between the input and the button */
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c;
+  }
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusts children to space between */
+  }
+  
+  /* Continue with the rest of your styles */
+  
+  .delete-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c;
+  }
